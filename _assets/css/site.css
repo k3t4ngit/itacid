@@ -1,0 +1,131 @@
+/*
+    Document   : site.css
+    Created on : 9 May, 2013, 3:05:44 PM
+    Author     : ketan.tiwari@appbinder.com
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.loading {
+  -webkit-animation:fadein 2s;
+  -moz-animation:fadein 2s;
+  -o-animation:fadein 2s;
+  animation:fadein 2s;
+}
+@-moz-keyframes fadein {
+  from {opacity:0}
+to {opacity:1}
+}
+@-webkit-keyframes fadein {
+  from {opacity:0}
+to {opacity:1}
+}
+@-o-keyframes fadein {
+  from {opacity:0}
+to {opacity:1}
+}
+@keyframes fadein {
+  from {opacity:0}
+to {opacity:1}
+}
+
+.spinner-wrapper {
+  min-width:100%;
+  min-height:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background:transparent;
+  position:absolute;
+  z-index:300;
+}
+
+.spinner-text {position:absolute;top:41.5%;left:47%;margin:16px 0 0 35px;font-size:9px;font-family:Arial;color:#BBB;letter-spacing:1px;font-weight:700}
+.spinner {
+  margin:0;
+  display:block;
+  position:absolute;
+  left:45%;
+  top:40%;
+  border:25px solid rgba(100,100,100,0.2);
+  width:1px;
+  height:1px;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  -webkit-animation:spin 1.5s infinite;
+  -moz-animation:spin 1.5s infinite;
+  animation:spin 1.5s infinite;
+}
+
+@-webkit-keyframes spin {
+  0%,100% {-webkit-transform:rotate(0deg) scale(1)}
+50%     {-webkit-transform:rotate(720deg) scale(0.6)}
+}
+
+@-moz-keyframes spin  {
+  0%,100% {-moz-transform:rotate(0deg) scale(1)}
+50%     {-moz-transform:rotate(720deg) scale(0.6)}
+}
+@-o-keyframes spin  {
+  0%,100% {-o-transform:rotate(0deg) scale(1)}
+50%     {-o-transform:rotate(720deg) scale(0.6)}
+}
+@keyframes spin  {
+  0%,100% {transform:rotate(0deg) scale(1)}
+50%     {transform:rotate(720deg) scale(0.6)}
+}
+body{
+
+  /*  font-family: BRUSHSCI;*/
+}
+#container{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  /*left:-700px;*/
+  display: none;
+}
+#navigation{
+  display: none;
+  top: -115px;
+}
+#footer{
+  display: none;
+  bottom: 0px;
+  position: fixed;
+  margin: auto;
+  bottom: -115px;
+}
+.navbar .navbar-inner {
+  background-color: #444444;
+  opacity: .85;
+}
+#loading{
+
+}
+#itlogo{
+  background-image: url('../img/itacid_logo.png');
+  background-size: 100% 100%;
+  height: 120px;
+  width: 280px;
+  top: 0px;
+  display: block;
+  position: relative;
+margin-left: 340PX;
+}
+.rotateAnti{
+  transform:rotate(-20deg);
+  -ms-transform:rotate(-20deg); /* IE 9 */
+  -webkit-transform:rotate(-20deg); /* Safari and Chrome */
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  margin-left: 400px; }
+#maindrop{
+    display: none;
+    height: 100px;
+    width: 100px;
+}
