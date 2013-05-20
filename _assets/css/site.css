@@ -114,7 +114,7 @@ body{
   top: 0px;
   display: block;
   position: relative;
-margin-left: 340PX;
+  margin-left: 40%;
 }
 .rotateAnti{
   transform:rotate(-20deg);
@@ -125,7 +125,7 @@ margin-left: 340PX;
   -webkit-transition: all .5s;
   margin-left: 400px; }
 #maindrop{
-    display: none;
-    height: 100px;
-    width: 100px;
+  display: none;
+  height: 100px;
+  width: 100px;
 }

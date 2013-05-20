@@ -7,6 +7,6 @@ $(document).ready(function() {
 });
 $('#itlogo').hover(function() {
   $(this).addClass('rotateAnti');
-  $(this).attr('style',"margin-left:450px; margin-top:-40px;");
-  $('#maindrop').fadeIn(500).delay(00).animate({'margin-top': '100px'}, 1000);
+  $(this).attr('style', "margin-left:50%; margin-top:-40px;");
+  $('#maindrop').fadeIn(1000).delay(00).animate({'margin-top': '100px'}, 1000);
 });
