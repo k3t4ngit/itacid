@@ -1,20 +1,11 @@
-
-
 <?php
 include 'includes/header.php';
-include 'includes/innerheader.php';
+//include 'includes/innerheader.php';
 ?>
 
 <div class = "container" id="container">
-<!--  <section class="threeD">
-    <div id="card">
-      <figure class="front" id="itlogo">1</figure>
-      <figure class="back">2</figure>
-    </div>
-
-  </section>-->
-  <div class="offset4" id="itlogo"></div>
+  <div class="span6" id="itlogo"></div>
+  <img src="<?php echo base_url();?>_assets/img/mdnface.png" id="maindrop"class="span3 offset5 img-rounded">
 </div> <!--/container-->
 
-<?php include 'includes/innerfooter.php'; ?>
 <?php include 'includes/footer.php'; ?>

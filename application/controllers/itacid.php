@@ -21,11 +21,15 @@ class ITAcid extends CI_Controller {
    * @see http://codeigniter.com/user_guide/general/urls.html
    */
   public function index() {
-    $this->load->view('home');
+    $this->load->view('index');
   }
 
   public function animate() {
     $this->load->view('3d');
+  }
+
+  public function home() {
+    $this->load->view('home');
   }
 
 }
