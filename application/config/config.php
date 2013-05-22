@@ -29,7 +29,7 @@ $config['base_url'] = 'http://localhost/itacid/';
   | variable so that it is blank.
   |
  */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
   |--------------------------------------------------------------------------
@@ -47,7 +47,7 @@ $config['index_page'] = '';
   | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
   |
  */
-$config['uri_protocol'] = 'QUERY_STRING';
+$config['uri_protocol'] = 'AUTO';
 
 /*
   |--------------------------------------------------------------------------

@@ -1,6 +1,0 @@
-order deny,allow
-Options +FollowSymLinks
-This is garbage
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
-RewriteRule (.*) //%1/$1 [L,R=301]

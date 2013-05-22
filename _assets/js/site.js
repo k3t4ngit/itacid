@@ -10,3 +10,6 @@ $('#itlogo').hover(function() {
   $(this).attr('style', "margin-left:50%; margin-top:-40px;");
   $('#maindrop').fadeIn(1000).delay(00).animate({'margin-top': '100px'}, 1000);
 });
+$('#card').click(function() {
+  $('#desc').fadeIn(1000);
+});

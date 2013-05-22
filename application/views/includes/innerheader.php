@@ -1,10 +1,4 @@
 <body>
-  <div class="loading"id="loading">
-    <div class="spinner-wrapper">
-      <span class="spinner-text">LOADING</span>
-      <span class="spinner"></span>
-    </div>
-  </div>
   <div class="navbar navbar-fixed-top" id="navigation">
     <div class="navbar-inner">
       <div class="container">
