@@ -54,10 +54,10 @@
 }
 #card .mid {
   background-image: url('../img/img.jpg');
-  background-size: 160px 160px;
+  background-size: 160px 210px;
   width: 160px;
-  height: 160px;
-  top:50px;
+  height: 210px;
+  top:20px;
   /*background: black;*/
   opacity: .85;
   box-shadow: 4px 1px 11px #000000;
@@ -88,15 +88,16 @@
   -o-transform:       rotateY(180deg) translateZ(100px);
   transform:          rotateY(180deg) translateZ(100px);
 }
-#card:target ,#card:focus{
-
+#card:target{
+  display: inline-block;
   -webkit-transform:  rotateY(90deg) translateZ(00px);
   -moz-transform:     rotateY(90deg) translateZ(0px);
   -ms-transform:      rotateY(90deg) translateZ(0px);
   -o-transform:       rotateY(90deg) translateZ(0px);
   transform:          rotateY(90deg) translateZ(0px);
 }
-#card:target .mid ,#card:focus .mid{
+#card:target .mid {
+  display: inline-block;
   z-index:11;
   margin-left: 20px;
   -webkit-transform:  rotateY(270deg) translateZ(00px);
@@ -106,9 +107,10 @@
   transform:          rotateY(270deg) translateZ(0px);
 
 }
-#card:target .front ,#card:focus .front{
-  /*transition-delay: 2s;*/
-  /*-webkit-transition-delay: 2s;*/
+#card:target .front{
+  display: inline-block;
+  transition-delay: 2s;
+  -webkit-transition-delay: 2s;
   -webkit-transition:       1.2s linear;
   -moz-transition:          1.2s linear;
   -o-transition:            1.2s linear;
@@ -120,5 +122,8 @@
   -o-transform:       rotateY(-40deg) translateZ(800px) translateX(650px);
   transform:          rotateY(-40deg) translateZ(800px) translateX(650px);
 
-}
 
+}
+#profilepic:hover{
+  transform: rotateY(30deg);
+}

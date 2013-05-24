@@ -2,7 +2,7 @@
 
 <?php
 include 'includes/header.php';
-include 'includes/innerheader.php';
+//include 'includes/innerheader.php';
 ?>
 <link href="<?php echo base_url(); ?>_assets/css/3d.css" rel="stylesheet">
 <div class = "container" id="container">
@@ -16,7 +16,7 @@ include 'includes/innerheader.php';
         </div>
       </section>
     </div>
-    <div class="span7" id="desc"><p class="lead">Hello this is my profile ;)</p></div>
+    <div class="span7" id="desc"><h1 class="big-font">Hello this is my profile ;)</h1></div>
 
     <!--    <div class="span3">
           <section class="threeD">
@@ -32,5 +32,7 @@ include 'includes/innerheader.php';
   <!--<div class="offset4" id="itlogo"></div>-->
 </div> <!--/container-->
 
-<?php include 'includes/innerfooter.php'; ?>
-<?php include 'includes/footer.php'; ?>
+<?php
+//include 'includes/innerfooter.php';
+include 'includes/footer.php';
+?>

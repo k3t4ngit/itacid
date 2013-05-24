@@ -19,6 +19,10 @@ class Itacid extends CI_Controller {
     $this->load->view('3d');
   }
 
+  public function design() {
+    $this->load->view('design');
+  }
+
 }
 
 ?>

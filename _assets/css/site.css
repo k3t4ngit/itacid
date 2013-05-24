@@ -5,7 +5,6 @@
     Description:
         Purpose of the stylesheet follows.
 */
-
 .loading {
   -webkit-animation:fadein 2s;
   -moz-animation:fadein 2s;
@@ -78,8 +77,10 @@ to {opacity:1}
 50%     {transform:rotate(720deg) scale(0.6)}
 }
 body{
-
-  /*  font-family: BRUSHSCI;*/
+  background-image: url('../img/bg.jpg');
+  color: whitesmoke
+    /*background-size: 100%;*/
+    /*  font-family: BRUSHSCI;*/
 }
 #container{
   padding-top: 10%;
@@ -116,6 +117,15 @@ body{
   position: relative;
   margin-left: 40%;
 }
+#logo{
+  background-image: url('../img/itacid_logo.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  height: 120px;
+  width: 280px;
+}
 .rotateAnti{
   transform:rotate(-20deg);
   -ms-transform:rotate(-20deg); /* IE 9 */
@@ -133,4 +143,52 @@ body{
   position: relative;
   top:30px;
   display: none;
+}
+.big-font{
+  font-size: 150px;
+}
+#content{
+  top: 30px;
+  position: relative;
+}
+#upperdiv{
+  color: whitesmoke;
+  background-color: transparent;
+  /*box-shadow: 1px 2px 4px #555555;*/
+  color: whitesmoke;
+}
+.seperator{
+  border-bottom: 1px solid #555555;
+}
+#menu{
+  float: right;
+  text-align: center;
+  position: relative;
+  top: 30px;
+
+
+
+}
+#menu .span3{
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #3C3C3C;
+  border-right: 0 solid #3C3C3C;
+  box-shadow: 0 1px 1px #3C3C3C;
+  margin-left: 0;
+  width: 290px;
+}
+#menu h3:hover {
+
+
+}
+#menu .span3:hover h3 {
+  -webkit-transition:       1s linear;
+  -moz-transition:          1s linear;
+  -o-transition:            1s linear;
+  -ms-transition:           1s linear;
+  transition:              .7s linear;
+  transform: rotateX(360deg)  ;
+  color:#149bdf;
+
+
 }
