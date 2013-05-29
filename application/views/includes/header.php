@@ -11,16 +11,8 @@
     <link href="<?php echo base_url(); ?>_assets/css/bootstrap.css" rel="stylesheet">
 
     <link href="<?php echo base_url(); ?>_assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>_assets/css/3d.css" rel="stylesheet">
+    <!--<link href="<?php echo base_url(); ?>_assets/css/3d.css" rel="stylesheet">-->
     <link href="<?php echo base_url(); ?>_assets/css/site.css" rel="stylesheet">
-
-    <!--less.js-->
-    <script src="<?php echo base_url(); ?>_assets/js/less.js" type="text/javascript"></script>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="<?php echo base_url(); ?>_assets/js/html5shiv.js"></script>
-    <![endif]-->
-
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>_assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>_assets/ico/apple-touch-icon-114-precomposed.png">

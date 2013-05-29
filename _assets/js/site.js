@@ -13,3 +13,11 @@ $('#itlogo').hover(function() {
 $('#card').click(function() {
   $('#desc').fadeIn(1000);
 });
+function smoothscroll(div) {
+  var offset = $(div).offset().top;
+  $('html,body').animate({'scrollTop': offset - 250}, 700);//another way of calling the plugin
+
+
+
+
+}
